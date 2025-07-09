@@ -35,3 +35,5 @@ foreach ($toolsData as $tool) {
 
 $router = new App\Router($tools);
 $router->dispatch();
+=======
+<?php header('Location: /public/'); exit; ?>
