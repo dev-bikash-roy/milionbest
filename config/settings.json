@@ -1,0 +1,13 @@
+{
+  "title": "MillionBest – Free Online Tools",
+  "description": "Powerful and privacy-friendly online tools for PDF, text, code, resume, and productivity — all in one place at MillionBest.com.",
+  "adsense_bottom": "",
+  "logo": "/uploads/logo.png",
+  "favicon": "/uploads/favicon.ico",
+  "head": "",
+  "admin_user": "admin",
+  "admin_pass": "password",
+  "adsense_top": "",
+  "APP_DEBUG": false
+}
+

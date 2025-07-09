@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# remove trailing slashes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ $1 [R=301,L]
+
+# serve existing files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# route tool slugs
+RewriteRule ^([\w-]+)$ index.php?tool=$1 [L,QSA]
