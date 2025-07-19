@@ -1,26 +1,30 @@
 [
   {
-    "slug": "word-counter",
-    "name": "Word Counter",
-    "icon": "✍️",
+    "slug": "blog-writer",
+    "name": "Blog Writer",
+    "icon": "📝",
     "visible": true,
-    "title": "Word Counter – MillionBest",
-    "description": "Count words and characters instantly."
+    "category": "Blog Tools"
   },
   {
-    "slug": "json-formatter",
-    "name": "JSON Formatter",
-    "icon": "{}",
+    "slug": "seo-keyword",
+    "name": "SEO Keyword",
+    "icon": "🔍",
     "visible": true,
-    "title": "JSON Formatter – MillionBest",
-    "description": "Format JSON with ease."
+    "category": "SEO Tools"
   },
   {
-    "slug": "qr-code-generator",
-    "name": "QR Code Generator",
-    "icon": "🔓",
+    "slug": "invoice-generator",
+    "name": "Invoice Generator",
+    "icon": "🧾",
     "visible": true,
-    "title": "QR Code Generator – MillionBest",
-    "description": "Create QR codes quickly."
+    "category": "Business"
+  },
+  {
+    "slug": "cv-generator",
+    "name": "CV Generator",
+    "icon": "📄",
+    "visible": true,
+    "category": "Personal Tools"
   }
 ]
