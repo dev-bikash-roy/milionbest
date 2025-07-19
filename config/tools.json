@@ -5,6 +5,65 @@
     "icon": "📝",
     "visible": true,
     "category": "Blog Tools"
+  },
+  {
+    "slug": "seo-keyword",
+    "name": "SEO Keyword",
+    "icon": "🔍",
+    "visible": true,
+    "category": "SEO Tools"
+  },
+  {
+    "slug": "invoice-generator",
+    "name": "Invoice Generator",
+    "icon": "🧾",
+    "visible": true,
+    "category": "Business"
+  },
+  {
+    "slug": "cv-generator",
+    "name": "CV Generator",
+    "icon": "📄",
+    "visible": true,
+    "category": "Personal Tools"
+  },
+  {
+    "slug": "writing-assistant",
+    "name": "Writing Assistant",
+    "icon": "✍️",
+    "visible": true,
+    "category": "Writing Assistant"
+  },
+  {
+    "slug": "product-description",
+    "name": "Product Description",
+    "icon": "🛍️",
+    "visible": true,
+    "category": "E-Commerce Tools"
+  },
+  {
+    "slug": "movie-script",
+    "name": "Movie Script Writer",
+    "icon": "🎬",
+    "visible": true,
+    "category": "Movie Script Writing Tool"
+  },
+  {
+    "slug": "email-writer",
+    "name": "Email Writer",
+    "icon": "✉️",
+    "visible": true,
+    "category": "E-mail Tools"
+  },
+  {
+    "slug": "image-prompt",
+    "name": "Image Prompt",
+    "icon": "🖼️",
+    "visible": true,
+    "category": "Image Prompts"
+=======
+    "visible": true,
+    "category": "Blog Tools"
     "visible": true
   },
   {

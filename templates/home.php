@@ -18,7 +18,6 @@
 <?php foreach ($tools as $tool):
     if(!$tool['visible']) continue;
     if($currentCategory !== 'All Tools' && (($tool['category'] ?? '') !== $currentCategory)) continue; ?>
-=======
 <h1 class="text-2xl font-bold mb-4">Available Tools</h1>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
 <?php foreach ($tools as $tool): if(!$tool['visible']) continue; ?>
