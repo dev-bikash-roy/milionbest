@@ -3,24 +3,28 @@
     "slug": "blog-writer",
     "name": "Blog Writer",
     "icon": "📝",
-    "visible": true
+    "visible": true,
+    "category": "Blog Tools"
   },
   {
     "slug": "seo-keyword",
     "name": "SEO Keyword",
     "icon": "🔍",
-    "visible": true
+    "visible": true,
+    "category": "SEO Tools"
   },
   {
     "slug": "invoice-generator",
     "name": "Invoice Generator",
     "icon": "🧾",
-    "visible": true
+    "visible": true,
+    "category": "Business"
   },
   {
     "slug": "cv-generator",
     "name": "CV Generator",
     "icon": "📄",
-    "visible": true
+    "visible": true,
+    "category": "Personal Tools"
   }
 ]
