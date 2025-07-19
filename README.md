@@ -1,18 +1,17 @@
-# MillionBest Toolkit
+# AI Tools Web Suite
 
-This is a lightweight PHP 8.1 toolkit designed for shared hosting. It serves several small utilities with a Tailwind CSS UI and a single front controller.
+This PHP-based web suite provides AI-powered utilities such as blog writing, SEO keyword suggestions, an invoice generator, and a CV generator. It uses a simple front controller and Router AI API integration.
 
 ## Setup
 1. Install dependencies with Composer:
    ```bash
    composer install
    ```
-2. Point your web root to the `public` folder. `.htaccess` rewrites pretty URLs to `index.php`.
-3. Update configuration files in `config/` for SEO settings and tool metadata.
+2. Configure API keys and site settings in `config/settings.json`.
+3. Point your web root to the `public` folder.
 
-## Included Tools
-- Word Counter
-- JSON Formatter
-- QR Code Generator
-
-Additional tools can be added under the `tools/` directory using the same structure.
+## Tools
+- Blog Writer
+- SEO Keyword Generator
+- Invoice Generator
+- CV Generator

@@ -1,26 +1,26 @@
 [
   {
-    "slug": "word-counter",
-    "name": "Word Counter",
-    "icon": "✍️",
-    "visible": true,
-    "title": "Word Counter – MillionBest",
-    "description": "Count words and characters instantly."
+    "slug": "blog-writer",
+    "name": "Blog Writer",
+    "icon": "📝",
+    "visible": true
   },
   {
-    "slug": "json-formatter",
-    "name": "JSON Formatter",
-    "icon": "{}",
-    "visible": true,
-    "title": "JSON Formatter – MillionBest",
-    "description": "Format JSON with ease."
+    "slug": "seo-keyword",
+    "name": "SEO Keyword",
+    "icon": "🔍",
+    "visible": true
   },
   {
-    "slug": "qr-code-generator",
-    "name": "QR Code Generator",
-    "icon": "🔓",
-    "visible": true,
-    "title": "QR Code Generator – MillionBest",
-    "description": "Create QR codes quickly."
+    "slug": "invoice-generator",
+    "name": "Invoice Generator",
+    "icon": "🧾",
+    "visible": true
+  },
+  {
+    "slug": "cv-generator",
+    "name": "CV Generator",
+    "icon": "📄",
+    "visible": true
   }
 ]
