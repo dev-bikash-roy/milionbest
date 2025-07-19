@@ -5,6 +5,7 @@
     "icon": "📝",
     "visible": true,
     "category": "Blog Tools"
+    "visible": true
   },
   {
     "slug": "seo-keyword",
@@ -12,6 +13,7 @@
     "icon": "🔍",
     "visible": true,
     "category": "SEO Tools"
+    "visible": true
   },
   {
     "slug": "invoice-generator",
@@ -19,6 +21,7 @@
     "icon": "🧾",
     "visible": true,
     "category": "Business"
+    "visible": true
   },
   {
     "slug": "cv-generator",
@@ -26,5 +29,6 @@
     "icon": "📄",
     "visible": true,
     "category": "Personal Tools"
+    "visible": true
   }
 ]
