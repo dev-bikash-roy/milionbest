@@ -10,6 +10,9 @@ $tools = [];
 foreach ($toolsList as $tool) {
     $tools[$tool['slug']] = $tool;
 }
+$categories = json_decode(file_get_contents(__DIR__ . '/../config/categories.json'), true);
+
+$router = new App\Router($tools, $categories);
 
 $router = new App\Router($tools);
 $router->dispatch();
