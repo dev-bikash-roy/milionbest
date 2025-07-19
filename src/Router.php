@@ -6,6 +6,8 @@ class Router {
     private array $categories;
 
     public function __construct(array $tools, array $categories = []) {
+=======
+    public function __construct(array $tools) {
         $this->tools = $tools;
         $this->categories = $categories;
     }
@@ -18,6 +20,8 @@ class Router {
                 'tools' => $this->tools,
                 'categories' => $this->categories,
             ]);
+=======
+            include __DIR__ . '/../tools/' . $slug . '/view.php';
             return;
         }
         if ($slug) {

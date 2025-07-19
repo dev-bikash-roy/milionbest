@@ -61,5 +61,33 @@
     "icon": "🖼️",
     "visible": true,
     "category": "Image Prompts"
+=======
+    "visible": true,
+    "category": "Blog Tools"
+    "visible": true
+  },
+  {
+    "slug": "seo-keyword",
+    "name": "SEO Keyword",
+    "icon": "🔍",
+    "visible": true,
+    "category": "SEO Tools"
+    "visible": true
+  },
+  {
+    "slug": "invoice-generator",
+    "name": "Invoice Generator",
+    "icon": "🧾",
+    "visible": true,
+    "category": "Business"
+    "visible": true
+  },
+  {
+    "slug": "cv-generator",
+    "name": "CV Generator",
+    "icon": "📄",
+    "visible": true,
+    "category": "Personal Tools"
+    "visible": true
   }
 ]
