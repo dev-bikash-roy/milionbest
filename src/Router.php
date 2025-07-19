@@ -1,20 +1,17 @@
 <?php
 namespace App;
 
-class Router
-{
+class Router {
     private array $tools;
 
-    public function __construct(array $tools)
-    {
+    public function __construct(array $tools) {
         $this->tools = $tools;
     }
 
-    public function dispatch(): void
-    {
+    public function dispatch(): void {
         $slug = $_GET['tool'] ?? '';
         if ($slug && isset($this->tools[$slug]) && $this->tools[$slug]['visible']) {
-            include_once __DIR__ . '/../tools/' . $slug . '/view.php';
+            include __DIR__ . '/../tools/' . $slug . '/view.php';
             return;
         }
         if ($slug) {
